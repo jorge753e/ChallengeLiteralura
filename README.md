@@ -63,3 +63,4 @@ Tecnologias usadas:
  Redes sociales 🤝
 
 -  GitHub: https://github.com/jorge753e
+-  Linkedin https://www.linkedin.com/in/jorge-maquera-rp/
