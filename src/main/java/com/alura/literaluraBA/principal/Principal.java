@@ -31,6 +31,7 @@ public class Principal {
         var opcion = -1;
         while(opcion != 0){
             var menu = """
+                        *********** MENU ***************
                         1- Buscar Libros web
                         2- Lista de libros registrados
                         3- Buscar libro por titulo
@@ -190,6 +191,7 @@ public class Principal {
             try {
                 libroRepository.save(libro);
                 System.out.println(libro);
+                System.out.println("Libro registrado correctamente =) ");
             }catch (Exception e){
                 System.out.println("No puedes registrar el mismo libro mas de una vez");
             }
